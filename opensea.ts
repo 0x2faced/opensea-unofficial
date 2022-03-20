@@ -19,8 +19,10 @@ export async function query<TId extends keyof QueryVaraiblesMap>(
   });
   if (response.status === 200) {
     return await response.json().then((
-      data: { data: { query: QueryMap[TId] } },
-    ) => data.data.query);
+      data: { data: QueryMap[TId] },
+    ) => {
+      return data.data;
+    });
   }
 
   throw new Error(
