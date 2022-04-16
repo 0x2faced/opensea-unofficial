@@ -9,7 +9,7 @@
 import { query } from "https://raw.githubusercontent.com/0x2faced/opensea-unofficial/main/opensea.ts";
 
 // specific version
-// import { query } from "https://raw.githubusercontent.com/0x2faced/opensea-unofficial/v0.0.1/opensea.ts";
+// import { query } from "https://raw.githubusercontent.com/0x2faced/opensea-unofficial/0.1.0/opensea.ts";
 
 const { query: { search } } = await query("AssetSearchQuery", {
   collection: "ujin",
