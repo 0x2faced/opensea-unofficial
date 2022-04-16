@@ -1,7 +1,9 @@
 # Opensea Unofficial API
 
-<img alt="Deno" src="https://img.shields.io/badge/-Deno-gray?logo=deno&labelColor=black&style=flat-square" />
-<img alt="Opensea Unofficial Version" src="https://img.shields.io/github/v/tag/0x2faced/opensea-unofficial?style=flat-square" />
+<p>
+  <img alt="Deno" src="https://img.shields.io/badge/-Deno-gray?logo=deno&labelColor=black&style=flat-square" />
+  <img alt="Opensea Unofficial Version" src="https://img.shields.io/github/v/tag/0x2faced/opensea-unofficial?style=flat-square" />
+</p>
 
 ## Usage
 
